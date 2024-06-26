@@ -211,8 +211,8 @@ function drawImageProp(ctx, img, x, y, w, h, offsetX, offsetY) {
 
 // Apply interaction to all elements with this class
 $(".scrub-section-2").each(function (index) {
-  const canvas = $(this).find("canvas")[0];
-  const embed = $(this).find(".embed")[0];
+  const canvas = $(this).find("canvas")[1];
+  const embed = $(this).find(".embed")[1];
   const context = canvas.getContext("2d");
   function setCanvasSize() {
     canvas.width = embed.offsetWidth;
