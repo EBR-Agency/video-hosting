@@ -47,7 +47,7 @@ $(".scrub-section-2").each(function (index) {
     start: "top top",
     end: "bottom bottom",
     scrub: true,
-    pin: $(this).find(".sticky-element"),
+    pin: $(this).find(".sticky-element-2"),
   });
 });
 
