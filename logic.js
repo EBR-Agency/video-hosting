@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
-let smoother = ScrollSmoother.create({
+let smoother2 = ScrollSmoother.create({
   smooth: 0.5,
   ease: "Power4.easeInOut",
 });
